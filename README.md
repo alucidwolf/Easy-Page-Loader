@@ -9,6 +9,7 @@ Very easy and basic page loader, image can be created and downloaded from loadin
 
 ##CSS
 ###Place inside your main CSS file, or another file specific to loading elements
+The background image I created and downloaded from loading.io and then places inside my _images directory. You can adjust this style as needed
 ```
 .loader {
     position: fixed;
