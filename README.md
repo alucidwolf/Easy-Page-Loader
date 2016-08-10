@@ -24,6 +24,11 @@ The background image I created and downloaded from loading.io and then places in
 
 ##Javascript, using jQuery
 ###Place inside your javascript file, or another file specific to action for the window.onload function
+More about the jQuery delay method:
+https://api.jquery.com/delay/
+
+More about the jQuery fadeOut method:
+http://api.jquery.com/fadeout/
 ```
 window.onload = function () {
     $(".loader").delay(250).fadeOut("fast");
