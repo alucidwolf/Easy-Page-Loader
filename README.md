@@ -22,20 +22,12 @@ The background image I created and downloaded from loading.io and then places in
 }
 ```
 
-##Javascript
+##Javascript, using jQuery
 ###Place inside your javascript file, or another file specific to action for the window.onload function
 ```
 window.onload = function () {
     $(".loader").delay(250).fadeOut("fast");
 }
-```
-
-###You can also do with jQuery
-```
-$(window).on('load', function () {
-    "use strict";
-    $(".loader").delay(250).fadeOut("fast");    
-});
 ```
 
 Cheers,
