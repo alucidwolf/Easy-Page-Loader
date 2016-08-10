@@ -1,0 +1,12 @@
+/*****************************
+	Loading Animation
+******************************/
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;    
+    z-index: 99999999;
+    background: url(../../_images/ring.gif) 50% 50% no-repeat rgb(255,255,255);
+}
